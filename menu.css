@@ -1,0 +1,31 @@
+.container {
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #a8a8a8;
+    border-radius: 10px;
+}
+
+.socket-list {
+    width: 100%;
+}
+
+.socket-list td {
+    text-align: center;
+}
+
+.socket-table {
+    width: 100%;
+}
+
+.socket-table th {
+    text-align: right;
+}
+
+.socket-table input {
+    width: 98%;
+}
+
+.socket-table button {
+    width: 49%;
+}

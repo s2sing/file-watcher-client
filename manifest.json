@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "File Watcher",
+  "description": "서버 디렉토리의 변경 발생 시 자동으로 새로고침을 합니다.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js",
+      "Connector.js",
+      "Storage.js"
+    ],
+    "persistent": false
+  }
+}

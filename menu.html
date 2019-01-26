@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ok">
+<head>
+    <meta charset="UTF-8">
+    <title>File Watcher Options</title>
+    <link rel="stylesheet" href="menu.css">
+    <script src="menu.js"></script>
+</head>
+<body>
+<div class="container" style="width:800px;height:200px;">
+    <div style="width:800px;height:200px;overflow-y: scroll;">
+        <table class="socket-list">
+            <thead>
+            <tr>
+                <th>설명</th>
+                <th>서버 소켓 URL</th>
+                <th>서버 도메인</th>
+                <th>서버 디렉토리</th>
+                <th>관리</th>
+            </tr>
+            </thead>
+            <tbody id="socket-list">
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="container">
+    <table class="socket-table">
+        <tr>
+            <th>설명 :</th>
+            <td><input type="text" id="server-description"></td>
+        </tr>
+        <tr>
+            <th>서버 소켓 URL :</th>
+            <td><input type="text" id="server-socket"></td>
+        </tr>
+        <tr>
+            <th>서버 도메인 :</th>
+            <td><input type="text" id="server-domain"></td>
+        </tr>
+        <tr>
+            <th>서버 디렉토리 :</th>
+            <td><input type="text" id="server-directory"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center">
+                <button id="btn-open">연결하기</button>
+                <button id="btn-close" style="display:none">연결끊기</button>
+                <button id="btn-save">저장하기</button>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
